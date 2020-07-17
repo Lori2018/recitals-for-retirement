@@ -1,0 +1,246 @@
+.home-page {
+  animation: fadeInAnimation ease 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// NAVBAR START
+
+.navbar-container {
+  background-color: #0f0f0f;
+  color: white;
+  opacity: 0.8;
+}
+
+.navbar-org-name {
+  color: white;
+}
+
+#drop-down-icon-container {
+  color: #0f0f0f;
+  background-color: #0f0f0f;
+}
+
+// NAVBAR END
+
+// HEADER START
+.org-description-name-header {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  font-weight: 200;
+  font-size: 10vmin;
+  position: static;
+  padding-left: 120px;
+  padding-top: 100px;
+}
+
+.violin-silhouette-img {
+  width: 50vmin;
+}
+
+.explore-button:hover,
+.explore-button:active {
+  border: 1px solid rgba(255, 255, 255, 0.329);
+  cursor: pointer;
+}
+
+.explore-button {
+  background-color: #8bf5b46c;
+  border: 0.5px solid #ffffff85;
+  border-radius: 8px;
+  height: 8vmin;
+  filter: opacity(0.8);
+}
+
+.explore-button-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 3.5vmin;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+// HEADER END
+
+// HOME START
+.home-container {
+  background-color: #000000;
+  padding-top: 55px;
+}
+
+// - first section -
+.home-section-container {
+  // float: right;
+  background-color: #8bf5b47c;
+  filter: opacity(0.8);
+  border: 1px solid rgba(255, 255, 255, 0.226);
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.section-float-right {
+  float: right;
+}
+
+.section-float-left {
+  float: left;
+}
+
+.content-block-title {
+  color: white;
+  font-size: 5.5vmin;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 50;
+  padding-left: 1vmin;
+  border-top: 0.75px solid white;
+}
+
+.content-block-text {
+  color: white;
+  font-size: 2.75vmin;
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+}
+
+// - first section end -
+
+// HOME END
+
+.row {
+  margin-right: 0px !important;
+}
+
+// GALLERY START
+
+.gallery-container {
+  margin-top: 10vmin;
+  margin-bottom: 15vmin;
+}
+
+.left-top {
+  border-left: 0.5px solid white;
+  border-top: 0.5px solid white;
+}
+
+.left-bot {
+  border-left: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+}
+
+.right-top {
+  border-right: 0.5px solid white;
+  border-top: 0.5px solid white;
+}
+
+.right-bot {
+  border-right: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+}
+
+.grid-img {
+  padding: 5vmin;
+  width: 40vmin;
+  height: 40vmin;
+  object-fit: cover;
+}
+
+// GALLERY END
+
+.google-form-recording {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// FOOTER START
+
+.footer-container {
+  background-color: #0f0f0f;
+  color: white;
+  opacity: 0.8;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+}
+
+.lori-brown {
+  color: rgba(255, 255, 255, 0.747) !important;
+  font-variant: small-caps;
+  font-size: 120%;
+  font-weight: 200;
+}
+
+.lori-brown:hover {
+  color: #c2ffd9cb !important;
+}
+
+// FOOTER END
+
+// DEVICES START
+
+// Monitor width size
+@media only screen and (min-width: 1900) {
+}
+
+@media only screen and (max-width: 600px) {
+  .org-description-name-header {
+    font-size: 5vmin;
+    position: static;
+    padding-left: 45px;
+    padding-top: 80px;
+  }
+
+  .violin-silhouette-img {
+    width: 35vmin;
+    position: static;
+    float: right;
+    margin-top: -120px;
+  }
+
+  .explore-button:hover,
+  .explore-button:active {
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    cursor: pointer;
+  }
+
+  .explore-button {
+    position: absolute;
+    height: 7.5vmin;
+    width: 15vmin;
+    right: 40vmin;
+    margin-top: 5px;
+    background-color: #8bf5b46c;
+    border: 0.5px solid #ffffff85;
+    border-radius: 8px;
+    filter: opacity(0.8);
+  }
+
+  .explore-button-text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 250;
+    font-size: 2.5vmin;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+// DEVICES END
+
+@import "~bootstrap/scss/bootstrap";

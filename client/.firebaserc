@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "recitalsforretirement": "wide-hexagon-281119",
+    "default": "wide-hexagon-281119"
+  },
+  "targets": {
+    "wide-hexagon-281119": {
+      "hosting": {
+        "recitalsforretirement": [
+          "recitalsforretirement"
+        ]
+      }
+    }
+  }
+}
